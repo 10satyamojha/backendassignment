@@ -4,6 +4,7 @@ import Login from "./pages/Login";
 import Register from "./pages/Register";
 import EmailVerification from "./pages/EmailVerification";
 import Howtouse from "./pages/howtousepage.jsx"
+import Forgotpassword from "./pages/forgotpassword.jsx"
 // import Dashboard from "./pages/Dashboard";
 import PrivateRoute from "./components/PrivateRoute";
 import "./App.css";
@@ -17,6 +18,7 @@ const App = () => {
         
         {/* Public Routes */}
         <Route path="/login" element={<Login />} />
+         <Route path="/forgot-password" element={<Forgotpassword />} />
         <Route path="/register" element={<Register />} />
         <Route path="/verify-email" element={<EmailVerification />} />
         
