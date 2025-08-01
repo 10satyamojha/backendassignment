@@ -3,8 +3,8 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-d
 import Login from "./pages/Login";
 import Register from "./pages/Register";
 import EmailVerification from "./pages/EmailVerification";
-import Howtouse from "./pages/howtousepage.jsx"
-import Forgotpassword from "./pages/forgotpassword.jsx"
+import Howtouse from "./pages/howtousepage.js"
+import Forgotpassword from "./pages/forgotpassword.js"
 // import Dashboard from "./pages/Dashboard";
 import PrivateRoute from "./components/PrivateRoute";
 import "./App.css";
